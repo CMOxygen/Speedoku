@@ -1,6 +1,7 @@
 ﻿// Speedoku.h : включаемый файл для стандартных системных включаемых файлов
 // или включаемые файлы для конкретного проекта.
-
+//#include "GameLogic/cell.h"
+#include "GameLogic/grid.h"
 #pragma once
 
 #include <iostream>
