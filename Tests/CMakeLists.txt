@@ -25,7 +25,7 @@ FetchContent_MakeAvailable(googletest)
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
 
 
-enable_testing()
+#enable_testing()
 
 add_executable(
   game_logic_t
