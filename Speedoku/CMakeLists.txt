@@ -3,7 +3,7 @@
 #
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Speedoku "Speedoku.cpp" "Speedoku.h")
+add_executable (Speedoku "Speedoku.cpp" "Speedoku.h" "ConsoleUI/ManagerUI.h" "ConsoleUI/OI.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Speedoku PROPERTY CXX_STANDARD 20)
