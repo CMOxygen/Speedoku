@@ -11,11 +11,12 @@ using namespace std;
 
 int main()
 {
+
 	cout << "Hello CMake." << endl;
 	//GameLogic::Cell c;
 
-	GameLogic::Grid g;
-	cout << static_cast<int>(g[1][1].getValue()) << endl;
+	/*GameLogic::Grid g;
+	cout << static_cast<int>(g[1][1].getValue()) << " " << Glob::g_gameSize << endl;*/
 
 	return 0;
 }

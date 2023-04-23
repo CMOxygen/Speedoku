@@ -1,4 +1,6 @@
-#include "grid.h"
+#pragma once
+
+//#include "grid.h"
 
 namespace GameLogic
 {
