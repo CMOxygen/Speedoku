@@ -1,17 +1,19 @@
-//#include ""
+
+#include "../GameLogic/cell.h"
 #include <iostream>
 #pragma once
 namespace consoleui {
-	const int gameSize = 9;
 	class OI
 	{
 	public:
 		OI();
 		~OI();
-		inline int GeyMassiv() { return this->z; }
+		inline int GameMassiv() { return this->z; }
+		int Insert_massiv(int** massive_size, bool state) {
 
+		}
 	private:
-		int prototype[gameSize][gameSize];
+		GameLogic::Cell prototype[GameLogic::gameSize][GameLogic::gameSize];
 		int z = 0;
 	};
 

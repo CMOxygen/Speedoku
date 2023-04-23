@@ -16,7 +16,7 @@ namespace GameLogic
 	public:
 		Cell();
 		~Cell();
-
+		inline unsigned int getSize() { return gameSize; }
 		inline unsigned char getValue() { return this->value; }
 	};
 };
