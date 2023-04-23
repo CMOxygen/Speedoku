@@ -2,6 +2,7 @@
 #include "../GameLogic/cell.h"
 #include <iostream>
 #include <string>
+#include <nlohmann/json.hpp>
 #pragma once
 using namespace std;
 

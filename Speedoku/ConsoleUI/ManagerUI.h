@@ -5,9 +5,6 @@ namespace consoleui {
 	{
 	public:
 		managerui()
-		{
-			cout << ""
-		}
 		~managerui();
 	private:
 	};
