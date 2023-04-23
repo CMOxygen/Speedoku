@@ -1,3 +1,4 @@
+#include "cell.h"
 namespace GameLogic
 {
 	class GameTimer
@@ -5,7 +6,7 @@ namespace GameLogic
 	public:
 		GameTimer();
 		~GameTimer();
-
+		Cell name[gameSize]
 	private:
 
 	};

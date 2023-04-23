@@ -16,6 +16,13 @@ namespace GameLogic
 	public:
 		Cell();
 		~Cell();
+		int dadasd(CellStatus status)
+		{
+			if (status == CellStatus::HIDDEN)
+			{
+				cout << "dsd";
+			}
+		}
 		inline unsigned int getSize() { return gameSize; }
 		inline unsigned char getValue() { return this->value; }
 	};

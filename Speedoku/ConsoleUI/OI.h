@@ -1,7 +1,10 @@
 
 #include "../GameLogic/cell.h"
 #include <iostream>
+#include <string>
 #pragma once
+using namespace std;
+
 namespace consoleui {
 	class OI
 	{
@@ -9,11 +12,26 @@ namespace consoleui {
 		OI();
 		~OI();
 		inline int GameMassiv() { return this->z; }
-		int Insert_massiv(int** massive_size, bool state) {
+		char input_state(string input, string del=",")
+		{
 
+		};
+		bool state_cell(int num, GameLogic::CellStatus state)
+		{
+			if (state == GameLogic::CellStatus::VISIBLE)
+			{
+
+			}
+			else if (state == GameLogic::CellStatus::HIDDEN)
+			{
+
+			}
+			else
+			{
+
+			}
 		}
 	private:
-		GameLogic::Cell prototype[GameLogic::gameSize][GameLogic::gameSize];
 		int z = 0;
 	};
 

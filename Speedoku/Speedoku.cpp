@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
 	consoleui::OI g;
-	cout << g.GeyMassiv();
+	cout << g.GameMassiv();
 	return 0;
 }
